@@ -1,1 +1,1 @@
-Try to memorize the places of all marked cells in the field. _
+Try to memorize the places of all marked cells in the field.

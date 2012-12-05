@@ -1,7 +1,7 @@
 /* display playfield */
 displayPlayField = function() {
 
-	playField = $('#playfield');
+	cellsList = $('#cells_list');
 	totalCellsNumber = $('#optform_hnumber').val() * $('#optform_vnumber').val();
 	newLineOn = $('#optform_hnumber').val();
 	
@@ -10,9 +10,7 @@ displayPlayField = function() {
 	for(i=0; i<totalCellsNumber; i++){
 		lis += '<li></li>';
 	}
-	//console.log(lis);
-	$(lis).appendTo(playField);
-	playField.css({'border':'solid red 1px'});
+	cellsList.html(lis);
 }
 
 /* Start */

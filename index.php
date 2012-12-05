@@ -2,14 +2,14 @@
 <html>
 <head>
 	<title>Memory</title>
-	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<link rel="stylesheet" type="text/css" href="css/memory.css">
 	<script type="text/javascript" src="js/lib/jquery-1.8.3.min.js"></script>
 	<script type="text/javascript" src="js/memory.js"></script>
 </head>
 
 <body>
 
-<ul id="playfield">
+<ul id="cells_list">
 	<li>s</li>
 </ul>
 

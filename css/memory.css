@@ -1,2 +1,3 @@
 #cells_list { margin:0; padding:0; list-style:none; }
-#cells_list li { float:left; width:40px; height:40px; background:gray; }
+#cells_list li { margin:3px; float:left; width:65px; height:65px; cursor:pointer; background:gray; }
+#cells_list li.last { clear:left; }

@@ -2,8 +2,24 @@
 <html>
 <head>
 	<title>Memory</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<script type="text/javascript" src="js/lib/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/memory.js"></script>
 </head>
 
 <body>
+
+<ul id="playfield">
+	<li>s</li>
+</ul>
+
+<form id="options_form">
+	Playfield width: 
+	<input type="text" name="optform_hnumber" id="optform_hnumber" value="4" /><br />
+	Playfield height: 
+	<input type="text" name="optform_vnumber" id="optform_vnumber" value="4" /><br />
+	<input type="submit" />
+</form>
+
 </body>
 </html>

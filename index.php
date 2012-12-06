@@ -16,7 +16,7 @@
 
 <form id="options_form">
 	Playfield width: 
-	<input type="text" name="optform_hnumber" id="optform_hnumber" value="4" /><br />
+	<input type="text" name="optform_hnumber" id="optform_hnumber" value="3" /><br />
 	Playfield height: 
 	<input type="text" name="optform_vnumber" id="optform_vnumber" value="4" /><br />
 	<input type="submit" />
